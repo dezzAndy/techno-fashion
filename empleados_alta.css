@@ -1,0 +1,103 @@
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.alta-table-container {
+    display: table;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alta-table-row {
+    display: table-row;
+}
+
+.alta-table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+input[type="text"], 
+input[type="password"], 
+select, 
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    margin-top: 10px;
+    padding: 5px;
+} 
+
