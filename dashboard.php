@@ -15,7 +15,7 @@ include('menu.php');
         <div class='dashboard-table-container'>
             <div class='dashboard-table-row body'>
                 <div class='dashboard-table-cell'>
-                    <div class='rainbow-text'><h1>Hola <?php echo $nombre_sesion; ?>, bienvenid@ al sistema!</h1></div>
+                    <div class='rainbow-text'><h1>Hola <?php echo $nombre_sesion; ?>, bienvenid@ al sistema! :3</h1></div>
                 </div>
             </div>
         </div>
